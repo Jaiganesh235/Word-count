@@ -6,22 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Open then required file by using the function"with".
 ### Step 2: 
- 
+Using split function to split the words. 
 ### Step 3: 
-
+Finding the length of the words by using len() function.
 ### Step 4:  
-
-### Step 5: 
-
-### Step 6: 
+ Calling the function and printing the number of words. 
 
 ## PROGRAM:
+```
+#Developed By: S.Jaiganesh
+#Register No: 212222240037
+n=input('Enter File name: ')
+wordslen=0
+with open(n,'r') as f:
+    for line in f:
+        words=line.split()
+        wordslen+=len(words)
+print("Number of wordds:",wordslen)
+```
+### File content:
+![image](https://github.com/Jaiganesh235/Word-count/assets/118657189/c4fb2b0d-9a83-4638-9de6-bb3ccb911235)
 
-### OUTPUT:
+
+## OUTPUT:
+![image](https://github.com/Jaiganesh235/Word-count/assets/118657189/ae91098f-1507-4a24-9e5b-7d0fec89047c)
 
 
 
 ## RESULT:
-Thus the program is written to find the word count from a text.
+Thus the python program is written to find the word count from a text.
